@@ -1,0 +1,72 @@
+# Sensitive information and local credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.pem
+*.key
+
+# Raw and derived data are excluded by default
+data/raw/**
+outputs/data/**
+!data/raw/.gitkeep
+!outputs/data/.gitkeep
+
+# Large model artifacts and run stores
+outputs/models/**
+outputs/other/**
+!outputs/models/.gitkeep
+!outputs/other/.gitkeep
+mlruns/
+wandb/
+checkpoints/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Office temporary and lock files
+~$*.docx
+~$*.doc
+~$*.pptx
+~$*.ppt
+~$*.xlsx
+
+# Quarto and generated manuscript caches
+.quarto/
+_freeze/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
