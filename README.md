@@ -1,4 +1,28 @@
-# 社会科学研究项目模板
+# Reproducible Social Science Research Template
+
+A lifecycle-based repository template for quantitative and computational social science. It keeps data collection, analysis, manuscripts, slides, releases, and replication materials in one traceable workflow.
+
+**Designed for:** Python, R, LaTeX, Word, and PowerPoint research projects where every result should be traceable to its inputs and source code.
+
+**Includes:** a clear data/code/output boundary, versioned manuscript and slide releases, and Python/R replication entry points.
+
+## Quick start
+
+Use **Use this template** on GitHub, or clone it locally:
+
+```bash
+git clone https://github.com/Yuxuan-THU/research-project-template.git my-research-project
+cd my-research-project
+python replication/run_all.py
+```
+
+## Citation and license
+
+When this template materially informs a project workflow, cite the repository URL, release or commit, and access date. This repository is released under the MIT License.
+
+---
+
+## 中文说明
 
 一套面向量化社会科学、计算社会科学与 AI for Social Science 的通用项目目录。它把数据获取、数据清洗、统计分析、论文写作、演示文稿和复现交付放进同一个可追踪的研究流程，同时兼容 Python、R、LaTeX、Word 和 PowerPoint。
 
